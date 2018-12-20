@@ -1,0 +1,2 @@
+# SdiRiceviFile
+SdiRiceviFile wsdltophp
