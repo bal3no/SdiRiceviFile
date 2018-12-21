@@ -4,12 +4,16 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5bc1f5b1392ee68557a7b502be903b6d
+class ComposerStaticInit23f717766a11cc7f4fe41b10e197f972
 {
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
             'WsdlToPhp\\PackageBase\\' => 22,
+        ),
+        'S' => 
+        array (
+            'SDICoop/SdiRiceviFile\\' => 22,
         ),
     );
 
@@ -18,19 +22,13 @@ class ComposerStaticInit5bc1f5b1392ee68557a7b502be903b6d
         array (
             0 => __DIR__ . '/..' . '/wsdltophp/packagebase/src',
         ),
-    );
-
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/../..' . '/src',
+        'SDICoop/SdiRiceviFile\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $classMap = array (
-        'ClassMap' => __DIR__ . '/../..' . '/src/ClassMap.php',
-        'EnumType\\ErroreInvio_Type' => __DIR__ . '/../..' . '/src/EnumType/ErroreInvio_Type.php',
-        'ServiceType\\Ricevi' => __DIR__ . '/../..' . '/src/ServiceType/Ricevi.php',
-        'StructType\\FileSdIBase_Type' => __DIR__ . '/../..' . '/src/StructType/FileSdIBase_Type.php',
-        'StructType\\FileSdI_Type' => __DIR__ . '/../..' . '/src/StructType/FileSdI_Type.php',
-        'StructType\\RispostaSdIRiceviFile_Type' => __DIR__ . '/../..' . '/src/StructType/RispostaSdIRiceviFile_Type.php',
         'WsdlToPhp\\PackageBase\\AbstractSoapClientBase' => __DIR__ . '/..' . '/wsdltophp/packagebase/src/AbstractSoapClientBase.php',
         'WsdlToPhp\\PackageBase\\AbstractStructArrayBase' => __DIR__ . '/..' . '/wsdltophp/packagebase/src/AbstractStructArrayBase.php',
         'WsdlToPhp\\PackageBase\\AbstractStructBase' => __DIR__ . '/..' . '/wsdltophp/packagebase/src/AbstractStructBase.php',
@@ -43,10 +41,9 @@ class ComposerStaticInit5bc1f5b1392ee68557a7b502be903b6d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5bc1f5b1392ee68557a7b502be903b6d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5bc1f5b1392ee68557a7b502be903b6d::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit5bc1f5b1392ee68557a7b502be903b6d::$fallbackDirsPsr4;
-            $loader->classMap = ComposerStaticInit5bc1f5b1392ee68557a7b502be903b6d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit23f717766a11cc7f4fe41b10e197f972::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit23f717766a11cc7f4fe41b10e197f972::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit23f717766a11cc7f4fe41b10e197f972::$classMap;
 
         }, null, ClassLoader::class);
     }

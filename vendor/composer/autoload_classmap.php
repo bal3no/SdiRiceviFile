@@ -6,12 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ClassMap' => $baseDir . '/src/ClassMap.php',
-    'EnumType\\ErroreInvio_Type' => $baseDir . '/src/EnumType/ErroreInvio_Type.php',
-    'ServiceType\\Ricevi' => $baseDir . '/src/ServiceType/Ricevi.php',
-    'StructType\\FileSdIBase_Type' => $baseDir . '/src/StructType/FileSdIBase_Type.php',
-    'StructType\\FileSdI_Type' => $baseDir . '/src/StructType/FileSdI_Type.php',
-    'StructType\\RispostaSdIRiceviFile_Type' => $baseDir . '/src/StructType/RispostaSdIRiceviFile_Type.php',
     'WsdlToPhp\\PackageBase\\AbstractSoapClientBase' => $vendorDir . '/wsdltophp/packagebase/src/AbstractSoapClientBase.php',
     'WsdlToPhp\\PackageBase\\AbstractStructArrayBase' => $vendorDir . '/wsdltophp/packagebase/src/AbstractStructArrayBase.php',
     'WsdlToPhp\\PackageBase\\AbstractStructBase' => $vendorDir . '/wsdltophp/packagebase/src/AbstractStructBase.php',
