@@ -1,6 +1,6 @@
 <?php
 
-namespace SDICoop/SdiRiceviFile\EnumType;
+namespace SDICoop\SdIRiceviFile\EnumType;
 
 /**
  * This class stands for erroreInvio_Type EnumType

@@ -1,6 +1,6 @@
 <?php
 
-namespace SDICoop/SdiRiceviFile\StructType;
+namespace SDICoop\SdIRiceviFile\StructType;
 
 use \WsdlToPhp\PackageBase\AbstractStructBase;
 
@@ -48,7 +48,7 @@ class FileSdIBase_Type extends AbstractStructBase
     /**
      * Set NomeFile value
      * @param string $nomeFile
-     * @return \SDICoop/SdiRiceviFile\StructType\FileSdIBase_Type
+     * @return \SDICoop\SdIRiceviFile\StructType\FileSdIBase_Type
      */
     public function setNomeFile($nomeFile = null)
     {
@@ -74,7 +74,7 @@ class FileSdIBase_Type extends AbstractStructBase
     /**
      * Set File value
      * @param string $file
-     * @return \SDICoop/SdiRiceviFile\StructType\FileSdIBase_Type
+     * @return \SDICoop\SdIRiceviFile\StructType\FileSdIBase_Type
      */
     public function setFile($file = null)
     {
@@ -91,7 +91,7 @@ class FileSdIBase_Type extends AbstractStructBase
      * @see AbstractStructBase::__set_state()
      * @uses AbstractStructBase::__set_state()
      * @param array $array the exported values
-     * @return \SDICoop/SdiRiceviFile\StructType\FileSdIBase_Type
+     * @return \SDICoop\SdIRiceviFile\StructType\FileSdIBase_Type
      */
     public static function __set_state(array $array)
     {

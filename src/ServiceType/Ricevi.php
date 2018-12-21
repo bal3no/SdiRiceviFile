@@ -1,6 +1,6 @@
 <?php
 
-namespace SDICoop/SdiRiceviFile\ServiceType;
+namespace SDICoop\SdIRiceviFile\ServiceType;
 
 use \WsdlToPhp\PackageBase\AbstractSoapClientBase;
 
@@ -16,10 +16,10 @@ class Ricevi extends AbstractSoapClientBase
      * @uses AbstractSoapClientBase::setResult()
      * @uses AbstractSoapClientBase::getResult()
      * @uses AbstractSoapClientBase::saveLastError()
-     * @param \SDICoop/SdiRiceviFile\StructType\FileSdIBase_Type $parametersIn
-     * @return \SDICoop/SdiRiceviFile\StructType\RispostaSdIRiceviFile_Type|bool
+     * @param \SDICoop\SdIRiceviFile\StructType\FileSdIBase_Type $parametersIn
+     * @return \SDICoop\SdIRiceviFile\StructType\RispostaSdIRiceviFile_Type|bool
      */
-    public function RiceviFile(\SDICoop/SdiRiceviFile\StructType\FileSdIBase_Type $parametersIn)
+    public function RiceviFile(\SDICoop\SdIRiceviFile\StructType\FileSdIBase_Type $parametersIn)
     {
         try {
             $this->setResult($this->getSoapClient()->RiceviFile($parametersIn));
@@ -32,7 +32,7 @@ class Ricevi extends AbstractSoapClientBase
     /**
      * Returns the result
      * @see AbstractSoapClientBase::getResult()
-     * @return \SDICoop/SdiRiceviFile\StructType\RispostaSdIRiceviFile_Type
+     * @return \SDICoop\SdIRiceviFile\StructType\RispostaSdIRiceviFile_Type
      */
     public function getResult()
     {

@@ -1,5 +1,5 @@
 {
-    "name": "sdicoop/SdiRiceviFile",
+    "name": "sdicoop/SdIRiceviFile",
     "description": "Package generated from SdIRiceviFile_v1.0.wsdl using wsdltophp/packagegenerator",
     "require": {
         "php": ">=5.3.3",
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SDICoop/SdiRiceviFile\\": "./src/"
+            "SDICoop\\SdIRiceviFile\\": "./src/"
         }
     }
 }

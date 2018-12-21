@@ -19,16 +19,16 @@ require_once __DIR__ . '/vendor/autoload.php';
  */
 $options = array(
     \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'SdIRiceviFile_v1.0.wsdl',
-    \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => \SDICoop/SdiRiceviFile\ClassMap::get(),
+    \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => \SDICoop\SdIRiceviFile\ClassMap::get(),
 );
 /**
  * Samples for Ricevi ServiceType
  */
-$ricevi = new \SDICoop/SdiRiceviFile\ServiceType\Ricevi($options);
+$ricevi = new \SDICoop\SdIRiceviFile\ServiceType\Ricevi($options);
 /**
  * Sample call for RiceviFile operation/method
  */
-if ($ricevi->RiceviFile(new \SDICoop/SdiRiceviFile\StructType\FileSdIBase_Type()) !== false) {
+if ($ricevi->RiceviFile(new \SDICoop\SdIRiceviFile\StructType\FileSdIBase_Type()) !== false) {
     print_r($ricevi->getResult());
 } else {
     print_r($ricevi->getLastError());

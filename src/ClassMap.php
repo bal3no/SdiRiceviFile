@@ -1,6 +1,6 @@
 <?php
 
-namespace SDICoop/SdiRiceviFile;
+namespace SDICoop\SdIRiceviFile;
 
 /**
  * Class which returns the class map definition
@@ -16,9 +16,9 @@ class ClassMap
     final public static function get()
     {
         return array(
-            'fileSdIBase_Type' => '\\SDICoop/SdiRiceviFile\\StructType\\FileSdIBase_Type',
-            'fileSdI_Type' => '\\SDICoop/SdiRiceviFile\\StructType\\FileSdI_Type',
-            'rispostaSdIRiceviFile_Type' => '\\SDICoop/SdiRiceviFile\\StructType\\RispostaSdIRiceviFile_Type',
+            'fileSdIBase_Type' => '\\SDICoop\\SdIRiceviFile\\StructType\\FileSdIBase_Type',
+            'fileSdI_Type' => '\\SDICoop\\SdIRiceviFile\\StructType\\FileSdI_Type',
+            'rispostaSdIRiceviFile_Type' => '\\SDICoop\\SdIRiceviFile\\StructType\\RispostaSdIRiceviFile_Type',
         );
     }
 }
